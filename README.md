@@ -1,27 +1,50 @@
-# React + TypeScript + Vite
+# Vite Template for React + React Three Fiber + TypeScript + Zustand
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a Vite template that allows you to quickly start a React project with React Three Fiber, TypeScript, and Zustand as the state management solution. The package manager used is pnpm.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Make sure you have the following installed on your machine:
 
-## Expanding the ESLint configuration
+- Node.js (version 18 or higher)
+- pnpm (you can install it via npm by running `npm install -g pnpm`)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Steps to Use this Template
 
-- Configure the top-level `parserOptions` property like this:
+1. **Create a New Project**
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+   To create a new project using this template, you can either clone this repository or use the Vite project creation feature.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash	
+   npx degit benjiGir/vite-r3f-template my-project
+   ```
+
+   then go to the project directory
+
+   ```bash
+   cd my-project
+   ```
+
+2. **Install Dependencies**
+
+   ```bash
+   pnpm install
+   ```
+
+3. **Start the Development Server**
+
+   ```bash
+   pnpm run dev
+   ```
+
+4. **Start Coding!**
+
+   You can start coding your project in the `src` folder. The entry point of the application is `src/main.tsx`.
+
+## Contributing
+
+If you encounter any issues or wish to contribute to this project, feel free to open a new issue or pull request on the project's GitHub repository.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
