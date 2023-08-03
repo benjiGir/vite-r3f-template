@@ -1,0 +1,5 @@
+singleQuote: true
+semi: true
+trailinComma: all
+tabWidth: 2
+endOfLine: lf
